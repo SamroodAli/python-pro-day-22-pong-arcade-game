@@ -25,3 +25,5 @@ class Paddle(Turtle):
     def event_listeners(self, keys):
         onkey(key=keys[0], fun=self.paddle_up)
         onkey(key=keys[1], fun=self.paddle_down)
+
+
