@@ -1,4 +1,4 @@
-from turtle import Turtle , onkey
+from turtle import Turtle, onkey
 from screen import screen
 
 
@@ -9,7 +9,7 @@ class Paddle(Turtle):
         self.penup()
         self.color("white")
         self.goto(position)
-        self.turtlesize(stretch_len=1, stretch_wid=5)
+        self.shapesize(stretch_len=1, stretch_wid=5)
         self.event_listeners(keys)
 
     def paddle_up(self):
